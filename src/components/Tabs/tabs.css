@@ -241,3 +241,33 @@ body {
      }
                   */
 
+                  .favicon-item {
+                    position: relative;
+                    padding: 10px;
+                    border-radius: 12px;
+                    background: white;
+                    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+                    transition: 0.2s;
+                  }
+                  
+                  .favicon-item:hover {
+                    background: #f0f0f0;
+                  }
+                  
+                  .hover-options {
+                    display: flex;
+                    gap: 6px;
+                  }
+                  
+                  .hover-options button {
+                    background: transparent;
+                    border: none;
+                    color: #333;
+                    font-size: 12px;
+                    cursor: pointer;
+                  }
+                  
+                  .hover-options button:hover {
+                    text-decoration: underline;
+                  }
+                                
